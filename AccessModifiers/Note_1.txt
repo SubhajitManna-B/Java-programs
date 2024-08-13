@@ -1,0 +1,6 @@
+* We have 4 types of access modifiers -- 
+            1) Public {It can access from any where inside the package,also from another package} [within class, outside class, outside package non-child, outside package child]
+            2) Protected {It can inherit from the parent class} [within class, outside class, outside package child]
+            3) Default {It can access from any where within the package} [within class, outside class]
+            4) Private {It is only access by class itself} [within class]
+
