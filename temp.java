@@ -7,5 +7,10 @@ class temp{
             }
             System.out.println();
         }
+        String str = new String("Subha");
+        String str2 = new String("Subha");
+        //String str = "Subha";
+        //String str2 = "Subha";
+        System.out.println(str.equals(str2));
     }
 }

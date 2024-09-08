@@ -13,6 +13,7 @@ public class SortingArray {
         for (int i : arr) {
             System.out.print(i+" ");
         }
+        System.out.println();
         ArrayList<Integer> al = new ArrayList<>();
         al.add(4);
         al.add(5);
@@ -22,7 +23,8 @@ public class SortingArray {
         al.add(4);
         al.add(9);
         al.add(1);
-        List<Integer> al2 = al.subList(2, 4);
+        System.out.println(al);
+        List<Integer> al2 = al.subList(2, 5);
         System.out.println(al2);
     }
 }

@@ -1,4 +1,3 @@
-package CollectionInterface;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Stack;
@@ -25,6 +24,8 @@ public class ListInterface {
         ll.add(3);
         System.out.println(ll);  //print the list
         System.out.println(ll.get(0));   //access the data of index 0
+        System.out.println(ll.peek());
+        System.out.println(ll.pop());
         System.out.println(ll.contains(3));  //check element 3 is present in array or not!
         ll.set(1, 5);   //change the value of the index 1 
         System.out.println(ll);  //print the list
