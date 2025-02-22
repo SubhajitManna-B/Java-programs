@@ -29,7 +29,7 @@ public class AnagramCheckOfTwoString {
     }
     public static void main(String[] args) {
         String str1 = "Subha";
-        String str2 = "subha";
+        String str2 = "baShu";
         System.out.println("Result = "+checkAnagram(str1, str2));
     }
 }

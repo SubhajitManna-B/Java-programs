@@ -65,6 +65,7 @@ public class SetInterface {
         ts.add(7);
         ts.add(32);
         ts.add(2);
+        System.out.println(ts.getFirst());
         System.out.println(ts);
     }
 
